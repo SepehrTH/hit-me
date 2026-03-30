@@ -1,4 +1,10 @@
-/audio/*
-__pycache__
+
+# macOS system files
+.DS_Store
+.claude/
+# Python cache
+__pycache__/
 *.pyc
-.DS_*
+
+# VSCode files (optional)
+.vscode/
