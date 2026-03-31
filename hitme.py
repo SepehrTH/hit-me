@@ -140,7 +140,7 @@ def run_as_user(cmd):
     return subprocess.Popen(cmd)
 
 
-def detect_slaps(threshold=0.10, cooldown=1.0):
+def detect_slaps(threshold=0.20, cooldown=0):
     hearts_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hearts.py")
 
     entries, is_random, tts_text = select_audio()
